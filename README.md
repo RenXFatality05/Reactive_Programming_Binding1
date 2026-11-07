@@ -24,5 +24,6 @@ npm.cmd run build
 
 - `task-1`: інтерполяція імені та віку через `{{ ... }}`.
 - `task-2`: прив’язка властивостей DOM через `[value]` та `[textContent]`.
+- `task-3`: прив’язка атрибута таблиці через `[attr.colspan]`.
 
 Використано Angular 22, standalone-компонент і signals.

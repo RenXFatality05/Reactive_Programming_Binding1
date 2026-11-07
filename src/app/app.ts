@@ -9,4 +9,5 @@ import { Component, signal } from '@angular/core';
 export class App {
   protected readonly name = signal('Tom');
   protected readonly age = signal(25);
+  protected readonly colspan = 2;
 }

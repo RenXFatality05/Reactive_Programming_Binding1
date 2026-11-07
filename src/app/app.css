@@ -11,3 +11,7 @@ label { display: grid; gap: 8px; font-weight: 600; }
 input { box-sizing: border-box; width: 100%; padding: 10px 12px; border: 1px solid #8391a2; border-radius: 6px; font: inherit; }
 input:focus-visible { outline: 3px solid #2358a5; outline-offset: 3px; }
 .note { color: #526173; }
+
+table { width: 100%; max-width: 420px; border-collapse: collapse; }
+td { padding: 12px; border: 1px solid #8391a2; }
+tr:first-child td { background: #edf2f8; }

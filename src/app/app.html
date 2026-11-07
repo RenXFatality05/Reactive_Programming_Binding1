@@ -25,4 +25,15 @@
     <p [textContent]="name()"></p>
     <p class="note">Введення в ці поля не змінює ім’я чи вік у компоненті.</p>
   </section>
+
+  <section aria-labelledby="task-3">
+    <h2 id="task-3">Вправа 3. Прив’язка атрибута</h2>
+    <table aria-label="Приклад об’єднання комірок">
+      <tbody>
+        <tr><td [attr.colspan]="colspan">Одна комірка на два стовпці</td></tr>
+        <tr><td>Три</td><td>Чотири</td></tr>
+        <tr><td>П’ять</td><td>Шість</td></tr>
+      </tbody>
+    </table>
+  </section>
 </main>
