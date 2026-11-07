@@ -9,4 +9,20 @@
     <p>Ім’я: {{ name() }}</p>
     <p>Вік: {{ age() }}</p>
   </section>
+
+  <section aria-labelledby="task-2">
+    <h2 id="task-2">Вправа 2. Прив’язка властивостей</h2>
+    <div class="fields">
+      <label for="property-name">
+        Ім’я через [value]
+        <input id="property-name" type="text" [value]="name()">
+      </label>
+      <label for="property-age">
+        Вік через [value]
+        <input id="property-age" type="text" [value]="age()">
+      </label>
+    </div>
+    <p [textContent]="name()"></p>
+    <p class="note">Введення в ці поля не змінює ім’я чи вік у компоненті.</p>
+  </section>
 </main>
