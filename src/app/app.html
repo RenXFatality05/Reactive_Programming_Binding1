@@ -36,4 +36,15 @@
       </tbody>
     </table>
   </section>
+
+  <section aria-labelledby="task-4">
+    <h2 id="task-4">Вправа 4. Прив’язка подій</h2>
+
+    <p>Кількість кліків: {{ count() }}</p>
+    <button type="button" (click)="increase()">Збільшити лічильник</button>
+
+    <p>Кількість кліків із передаванням події: {{ eventCount() }}</p>
+    <button type="button" (click)="increaseWithEvent($event)">Збільшити та показати подію</button>
+    <p class="note">Тип останньої події: {{ lastEventType() }}</p>
+  </section>
 </main>
