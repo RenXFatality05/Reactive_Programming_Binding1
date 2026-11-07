@@ -47,4 +47,19 @@
     <button type="button" (click)="increaseWithEvent($event)">Збільшити та показати подію</button>
     <p class="note">Тип останньої події: {{ lastEventType() }}</p>
   </section>
+
+  <section aria-labelledby="task-5">
+    <h2 id="task-5">Вправа 5. Двостороння прив’язка</h2>
+    <p>Привіт, {{ name() }}!</p>
+    <div class="fields">
+      <label for="model-name-first">
+        Ім’я, перше поле
+        <input id="model-name-first" type="text" [(ngModel)]="name">
+      </label>
+      <label for="model-name-second">
+        Ім’я, друге поле
+        <input id="model-name-second" type="text" [(ngModel)]="name">
+      </label>
+    </div>
+  </section>
 </main>

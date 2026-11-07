@@ -26,5 +26,6 @@ npm.cmd run build
 - `task-2`: прив’язка властивостей DOM через `[value]` та `[textContent]`.
 - `task-3`: прив’язка атрибута таблиці через `[attr.colspan]`.
 - `task-4`: обробка кліків через `(click)` і приклад передавання `$event`.
+- `task-5`: синхронізація двох полів і привітання через `[(ngModel)]`.
 
 Використано Angular 22, standalone-компонент і signals.
